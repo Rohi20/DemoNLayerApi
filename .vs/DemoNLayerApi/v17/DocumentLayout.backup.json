@@ -1,0 +1,431 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{043A3D44-C69B-43F4-8DA9-942EE971FE08}|DemoNLayerApi\\DemoNLayerApi.csproj|e:\\asp.net\\asp.net core\\workspace\\dotnetcore\\demonlayerapi\\demonlayerapi\\custommiddleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{043A3D44-C69B-43F4-8DA9-942EE971FE08}|DemoNLayerApi\\DemoNLayerApi.csproj|solutionrelative:demonlayerapi\\custommiddleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FDFC21-3A62-4490-8B68-9CA0A5124ABC}|DemoNLayerApi.Business\\DemoNLayerApi.Business.csproj|e:\\asp.net\\asp.net core\\workspace\\dotnetcore\\demonlayerapi\\demonlayerapi.business\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57FDFC21-3A62-4490-8B68-9CA0A5124ABC}|DemoNLayerApi.Business\\DemoNLayerApi.Business.csproj|solutionrelative:demonlayerapi.business\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{043A3D44-C69B-43F4-8DA9-942EE971FE08}|DemoNLayerApi\\DemoNLayerApi.csproj|e:\\asp.net\\asp.net core\\workspace\\dotnetcore\\demonlayerapi\\demonlayerapi\\custommiddleware\\usersessionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{043A3D44-C69B-43F4-8DA9-942EE971FE08}|DemoNLayerApi\\DemoNLayerApi.csproj|solutionrelative:demonlayerapi\\custommiddleware\\usersessionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FDFC21-3A62-4490-8B68-9CA0A5124ABC}|DemoNLayerApi.Business\\DemoNLayerApi.Business.csproj|e:\\asp.net\\asp.net core\\workspace\\dotnetcore\\demonlayerapi\\demonlayerapi.business\\exceptions\\customexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57FDFC21-3A62-4490-8B68-9CA0A5124ABC}|DemoNLayerApi.Business\\DemoNLayerApi.Business.csproj|solutionrelative:demonlayerapi.business\\exceptions\\customexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FDFC21-3A62-4490-8B68-9CA0A5124ABC}|DemoNLayerApi.Business\\DemoNLayerApi.Business.csproj|e:\\asp.net\\asp.net core\\workspace\\dotnetcore\\demonlayerapi\\demonlayerapi.business\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57FDFC21-3A62-4490-8B68-9CA0A5124ABC}|DemoNLayerApi.Business\\DemoNLayerApi.Business.csproj|solutionrelative:demonlayerapi.business\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FDFC21-3A62-4490-8B68-9CA0A5124ABC}|DemoNLayerApi.Business\\DemoNLayerApi.Business.csproj|e:\\asp.net\\asp.net core\\workspace\\dotnetcore\\demonlayerapi\\demonlayerapi.business\\demonlayerapi.business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{57FDFC21-3A62-4490-8B68-9CA0A5124ABC}|DemoNLayerApi.Business\\DemoNLayerApi.Business.csproj|solutionrelative:demonlayerapi.business\\demonlayerapi.business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{043A3D44-C69B-43F4-8DA9-942EE971FE08}|DemoNLayerApi\\DemoNLayerApi.csproj|e:\\asp.net\\asp.net core\\workspace\\dotnetcore\\demonlayerapi\\demonlayerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{043A3D44-C69B-43F4-8DA9-942EE971FE08}|DemoNLayerApi\\DemoNLayerApi.csproj|solutionrelative:demonlayerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{043A3D44-C69B-43F4-8DA9-942EE971FE08}|DemoNLayerApi\\DemoNLayerApi.csproj|e:\\asp.net\\asp.net core\\workspace\\dotnetcore\\demonlayerapi\\demonlayerapi\\demonlayerapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{043A3D44-C69B-43F4-8DA9-942EE971FE08}|DemoNLayerApi\\DemoNLayerApi.csproj|solutionrelative:demonlayerapi\\demonlayerapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{043A3D44-C69B-43F4-8DA9-942EE971FE08}|DemoNLayerApi\\DemoNLayerApi.csproj|e:\\asp.net\\asp.net core\\workspace\\dotnetcore\\demonlayerapi\\demonlayerapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{043A3D44-C69B-43F4-8DA9-942EE971FE08}|DemoNLayerApi\\DemoNLayerApi.csproj|solutionrelative:demonlayerapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{043A3D44-C69B-43F4-8DA9-942EE971FE08}|DemoNLayerApi\\DemoNLayerApi.csproj|e:\\asp.net\\asp.net core\\workspace\\dotnetcore\\demonlayerapi\\demonlayerapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{043A3D44-C69B-43F4-8DA9-942EE971FE08}|DemoNLayerApi\\DemoNLayerApi.csproj|solutionrelative:demonlayerapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{043A3D44-C69B-43F4-8DA9-942EE971FE08}|DemoNLayerApi\\DemoNLayerApi.csproj|e:\\asp.net\\asp.net core\\workspace\\dotnetcore\\demonlayerapi\\demonlayerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{043A3D44-C69B-43F4-8DA9-942EE971FE08}|DemoNLayerApi\\DemoNLayerApi.csproj|solutionrelative:demonlayerapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{516C8B1B-8502-4393-B56D-1EE112479218}|DemoNLayerAPI.DataAccess\\DemoNLayerApi.Data.csproj|e:\\asp.net\\asp.net core\\workspace\\dotnetcore\\demonlayerapi\\demonlayerapi.dataaccess\\repository\\userrepositroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{516C8B1B-8502-4393-B56D-1EE112479218}|DemoNLayerAPI.DataAccess\\DemoNLayerApi.Data.csproj|solutionrelative:demonlayerapi.dataaccess\\repository\\userrepositroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FDFC21-3A62-4490-8B68-9CA0A5124ABC}|DemoNLayerApi.Business\\DemoNLayerApi.Business.csproj|e:\\asp.net\\asp.net core\\workspace\\dotnetcore\\demonlayerapi\\demonlayerapi.business\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57FDFC21-3A62-4490-8B68-9CA0A5124ABC}|DemoNLayerApi.Business\\DemoNLayerApi.Business.csproj|solutionrelative:demonlayerapi.business\\iservices\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9139CBEE-A4F6-4ED5-A352-BFB3D7523537}|DemoNLayerAPI.Models\\DemoNLayerApi.Models.csproj|e:\\asp.net\\asp.net core\\workspace\\dotnetcore\\demonlayerapi\\demonlayerapi.models\\models\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9139CBEE-A4F6-4ED5-A352-BFB3D7523537}|DemoNLayerAPI.Models\\DemoNLayerApi.Models.csproj|solutionrelative:demonlayerapi.models\\models\\usersession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{043A3D44-C69B-43F4-8DA9-942EE971FE08}|DemoNLayerApi\\DemoNLayerApi.csproj|e:\\asp.net\\asp.net core\\workspace\\dotnetcore\\demonlayerapi\\demonlayerapi\\dtos\\requestdtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{043A3D44-C69B-43F4-8DA9-942EE971FE08}|DemoNLayerApi\\DemoNLayerApi.csproj|solutionrelative:demonlayerapi\\dtos\\requestdtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{516C8B1B-8502-4393-B56D-1EE112479218}|DemoNLayerAPI.DataAccess\\DemoNLayerApi.Data.csproj|e:\\asp.net\\asp.net core\\workspace\\dotnetcore\\demonlayerapi\\demonlayerapi.dataaccess\\migrations\\20250710111921_addrolecolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{516C8B1B-8502-4393-B56D-1EE112479218}|DemoNLayerAPI.DataAccess\\DemoNLayerApi.Data.csproj|solutionrelative:demonlayerapi.dataaccess\\migrations\\20250710111921_addrolecolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{516C8B1B-8502-4393-B56D-1EE112479218}|DemoNLayerAPI.DataAccess\\DemoNLayerApi.Data.csproj|e:\\asp.net\\asp.net core\\workspace\\dotnetcore\\demonlayerapi\\demonlayerapi.dataaccess\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{516C8B1B-8502-4393-B56D-1EE112479218}|DemoNLayerAPI.DataAccess\\DemoNLayerApi.Data.csproj|solutionrelative:demonlayerapi.dataaccess\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9139CBEE-A4F6-4ED5-A352-BFB3D7523537}|DemoNLayerAPI.Models\\DemoNLayerApi.Models.csproj|e:\\asp.net\\asp.net core\\workspace\\dotnetcore\\demonlayerapi\\demonlayerapi.models\\models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9139CBEE-A4F6-4ED5-A352-BFB3D7523537}|DemoNLayerAPI.Models\\DemoNLayerApi.Models.csproj|solutionrelative:demonlayerapi.models\\models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9139CBEE-A4F6-4ED5-A352-BFB3D7523537}|DemoNLayerAPI.Models\\DemoNLayerApi.Models.csproj|e:\\asp.net\\asp.net core\\workspace\\dotnetcore\\demonlayerapi\\demonlayerapi.models\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9139CBEE-A4F6-4ED5-A352-BFB3D7523537}|DemoNLayerAPI.Models\\DemoNLayerApi.Models.csproj|solutionrelative:demonlayerapi.models\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{043A3D44-C69B-43F4-8DA9-942EE971FE08}|DemoNLayerApi\\DemoNLayerApi.csproj|e:\\asp.net\\asp.net core\\workspace\\dotnetcore\\demonlayerapi\\demonlayerapi\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{043A3D44-C69B-43F4-8DA9-942EE971FE08}|DemoNLayerApi\\DemoNLayerApi.csproj|solutionrelative:demonlayerapi\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{516C8B1B-8502-4393-B56D-1EE112479218}|DemoNLayerAPI.DataAccess\\DemoNLayerApi.Data.csproj|e:\\asp.net\\asp.net core\\workspace\\dotnetcore\\demonlayerapi\\demonlayerapi.dataaccess\\irepository\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{516C8B1B-8502-4393-B56D-1EE112479218}|DemoNLayerAPI.DataAccess\\DemoNLayerApi.Data.csproj|solutionrelative:demonlayerapi.dataaccess\\irepository\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{516C8B1B-8502-4393-B56D-1EE112479218}|DemoNLayerAPI.DataAccess\\DemoNLayerApi.Data.csproj|e:\\asp.net\\asp.net core\\workspace\\dotnetcore\\demonlayerapi\\demonlayerapi.dataaccess\\irepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{516C8B1B-8502-4393-B56D-1EE112479218}|DemoNLayerAPI.DataAccess\\DemoNLayerApi.Data.csproj|solutionrelative:demonlayerapi.dataaccess\\irepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{043A3D44-C69B-43F4-8DA9-942EE971FE08}|DemoNLayerApi\\DemoNLayerApi.csproj|e:\\asp.net\\asp.net core\\workspace\\dotnetcore\\demonlayerapi\\demonlayerapi\\dtos\\responsedtos\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{043A3D44-C69B-43F4-8DA9-942EE971FE08}|DemoNLayerApi\\DemoNLayerApi.csproj|solutionrelative:demonlayerapi\\dtos\\responsedtos\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{043A3D44-C69B-43F4-8DA9-942EE971FE08}|DemoNLayerApi\\DemoNLayerApi.csproj|e:\\asp.net\\asp.net core\\workspace\\dotnetcore\\demonlayerapi\\demonlayerapi\\dtos\\responsedtos\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{043A3D44-C69B-43F4-8DA9-942EE971FE08}|DemoNLayerApi\\DemoNLayerApi.csproj|solutionrelative:demonlayerapi\\dtos\\responsedtos\\userresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{043A3D44-C69B-43F4-8DA9-942EE971FE08}|DemoNLayerApi\\DemoNLayerApi.csproj|e:\\asp.net\\asp.net core\\workspace\\dotnetcore\\demonlayerapi\\demonlayerapi\\dtos\\requestdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{043A3D44-C69B-43F4-8DA9-942EE971FE08}|DemoNLayerApi\\DemoNLayerApi.csproj|solutionrelative:demonlayerapi\\dtos\\requestdtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GlobalExceptionMiddleware.cs",
+              "DocumentMoniker": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi\\CustomMiddleware\\GlobalExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "DemoNLayerApi\\CustomMiddleware\\GlobalExceptionMiddleware.cs",
+              "ToolTip": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi\\CustomMiddleware\\GlobalExceptionMiddleware.cs",
+              "RelativeToolTip": "DemoNLayerApi\\CustomMiddleware\\GlobalExceptionMiddleware.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAuwB4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T05:20:59.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomException.cs",
+              "DocumentMoniker": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi.Business\\Exceptions\\CustomException.cs",
+              "RelativeDocumentMoniker": "DemoNLayerApi.Business\\Exceptions\\CustomException.cs",
+              "ToolTip": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi.Business\\Exceptions\\CustomException.cs",
+              "RelativeToolTip": "DemoNLayerApi.Business\\Exceptions\\CustomException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T05:20:15.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi.Business\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "DemoNLayerApi.Business\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi.Business\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "DemoNLayerApi.Business\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T05:14:38.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DemoNLayerApi.Business",
+              "DocumentMoniker": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi.Business\\DemoNLayerApi.Business.csproj",
+              "RelativeDocumentMoniker": "DemoNLayerApi.Business\\DemoNLayerApi.Business.csproj",
+              "ToolTip": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi.Business\\DemoNLayerApi.Business.csproj",
+              "RelativeToolTip": "DemoNLayerApi.Business\\DemoNLayerApi.Business.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-11T05:13:46.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserSessionMiddleware.cs",
+              "DocumentMoniker": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi\\CustomMiddleware\\UserSessionMiddleware.cs",
+              "RelativeDocumentMoniker": "DemoNLayerApi\\CustomMiddleware\\UserSessionMiddleware.cs",
+              "ToolTip": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi\\CustomMiddleware\\UserSessionMiddleware.cs",
+              "RelativeToolTip": "DemoNLayerApi\\CustomMiddleware\\UserSessionMiddleware.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwBUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T09:49:52.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi\\Program.cs",
+              "RelativeDocumentMoniker": "DemoNLayerApi\\Program.cs",
+              "ToolTip": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi\\Program.cs",
+              "RelativeToolTip": "DemoNLayerApi\\Program.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAxwE8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T14:03:52.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "DemoNLayerApi\\Controllers\\UserController.cs",
+              "ToolTip": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "DemoNLayerApi\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAUwBYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T16:33:53.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "DemoNLayerApi\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "DemoNLayerApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAowC8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T12:08:53.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi.Business\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "DemoNLayerApi.Business\\Services\\UserService.cs",
+              "ToolTip": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi.Business\\Services\\UserService.cs",
+              "RelativeToolTip": "DemoNLayerApi.Business\\Services\\UserService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAswC4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T12:23:38.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DemoNLayerApi.csproj",
+              "DocumentMoniker": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi\\DemoNLayerApi.csproj",
+              "RelativeDocumentMoniker": "DemoNLayerApi\\DemoNLayerApi.csproj",
+              "ToolTip": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi\\DemoNLayerApi.csproj",
+              "RelativeToolTip": "DemoNLayerApi\\DemoNLayerApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-10T16:59:23.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi.Business\\IServices\\IUserService.cs",
+              "RelativeDocumentMoniker": "DemoNLayerApi.Business\\IServices\\IUserService.cs",
+              "ToolTip": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi.Business\\IServices\\IUserService.cs",
+              "RelativeToolTip": "DemoNLayerApi.Business\\IServices\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T12:22:13.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserRepositroy.cs",
+              "DocumentMoniker": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerAPI.DataAccess\\Repository\\UserRepositroy.cs",
+              "RelativeDocumentMoniker": "DemoNLayerAPI.DataAccess\\Repository\\UserRepositroy.cs",
+              "ToolTip": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerAPI.DataAccess\\Repository\\UserRepositroy.cs",
+              "RelativeToolTip": "DemoNLayerAPI.DataAccess\\Repository\\UserRepositroy.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwBYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T12:28:56.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi\\appsettings.json",
+              "RelativeDocumentMoniker": "DemoNLayerApi\\appsettings.json",
+              "ToolTip": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi\\appsettings.json",
+              "RelativeToolTip": "DemoNLayerApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-09T14:01:16.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250710111921_addRoleColumn.cs",
+              "DocumentMoniker": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerAPI.DataAccess\\Migrations\\20250710111921_addRoleColumn.cs",
+              "RelativeDocumentMoniker": "DemoNLayerAPI.DataAccess\\Migrations\\20250710111921_addRoleColumn.cs",
+              "ToolTip": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerAPI.DataAccess\\Migrations\\20250710111921_addRoleColumn.cs",
+              "RelativeToolTip": "DemoNLayerAPI.DataAccess\\Migrations\\20250710111921_addRoleColumn.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T11:19:22.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerAPI.Models\\Models\\UserProfile.cs",
+              "RelativeDocumentMoniker": "DemoNLayerAPI.Models\\Models\\UserProfile.cs",
+              "ToolTip": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerAPI.Models\\Models\\UserProfile.cs",
+              "RelativeToolTip": "DemoNLayerAPI.Models\\Models\\UserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T10:32:00.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerAPI.Models\\Models\\User.cs",
+              "RelativeDocumentMoniker": "DemoNLayerAPI.Models\\Models\\User.cs",
+              "ToolTip": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerAPI.Models\\Models\\User.cs",
+              "RelativeToolTip": "DemoNLayerAPI.Models\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T10:31:49.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserSession.cs",
+              "DocumentMoniker": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerAPI.Models\\Models\\UserSession.cs",
+              "RelativeDocumentMoniker": "DemoNLayerAPI.Models\\Models\\UserSession.cs",
+              "ToolTip": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerAPI.Models\\Models\\UserSession.cs",
+              "RelativeToolTip": "DemoNLayerAPI.Models\\Models\\UserSession.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T10:23:17.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi\\DTOs\\RequestDTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "DemoNLayerApi\\DTOs\\RequestDTOs\\UserDTO.cs",
+              "ToolTip": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi\\DTOs\\RequestDTOs\\UserDTO.cs",
+              "RelativeToolTip": "DemoNLayerApi\\DTOs\\RequestDTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T15:18:08.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerAPI.DataAccess\\Context\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "DemoNLayerAPI.DataAccess\\Context\\AppDBContext.cs",
+              "ToolTip": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerAPI.DataAccess\\Context\\AppDBContext.cs",
+              "RelativeToolTip": "DemoNLayerAPI.DataAccess\\Context\\AppDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T10:50:30.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi\\DTOs\\ResponseDTOs\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "DemoNLayerApi\\DTOs\\ResponseDTOs\\LoginResponse.cs",
+              "ToolTip": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi\\DTOs\\ResponseDTOs\\LoginResponse.cs",
+              "RelativeToolTip": "DemoNLayerApi\\DTOs\\ResponseDTOs\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T16:04:21.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AuthorController.cs",
+              "DocumentMoniker": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi\\Controllers\\AuthorController.cs",
+              "RelativeDocumentMoniker": "DemoNLayerApi\\Controllers\\AuthorController.cs",
+              "ToolTip": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi\\Controllers\\AuthorController.cs",
+              "RelativeToolTip": "DemoNLayerApi\\Controllers\\AuthorController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T16:35:51.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IAuthorRepository.cs",
+              "DocumentMoniker": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerAPI.DataAccess\\IRepository\\IAuthorRepository.cs",
+              "RelativeDocumentMoniker": "DemoNLayerAPI.DataAccess\\IRepository\\IAuthorRepository.cs",
+              "ToolTip": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerAPI.DataAccess\\IRepository\\IAuthorRepository.cs",
+              "RelativeToolTip": "DemoNLayerAPI.DataAccess\\IRepository\\IAuthorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T04:56:56.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserResponse.cs",
+              "DocumentMoniker": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi\\DTOs\\ResponseDTOs\\UserResponse.cs",
+              "RelativeDocumentMoniker": "DemoNLayerApi\\DTOs\\ResponseDTOs\\UserResponse.cs",
+              "ToolTip": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi\\DTOs\\ResponseDTOs\\UserResponse.cs",
+              "RelativeToolTip": "DemoNLayerApi\\DTOs\\ResponseDTOs\\UserResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T16:04:24.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerAPI.DataAccess\\IRepository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "DemoNLayerAPI.DataAccess\\IRepository\\IUserRepository.cs",
+              "ToolTip": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerAPI.DataAccess\\IRepository\\IUserRepository.cs",
+              "RelativeToolTip": "DemoNLayerAPI.DataAccess\\IRepository\\IUserRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwA4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T12:24:59.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi\\DTOs\\RequestDTOs\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "DemoNLayerApi\\DTOs\\RequestDTOs\\LoginDTO.cs",
+              "ToolTip": "E:\\ASP.Net\\ASP.Net Core\\Workspace\\DotNetCore\\DemoNLayerApi\\DemoNLayerApi\\DTOs\\RequestDTOs\\LoginDTO.cs",
+              "RelativeToolTip": "DemoNLayerApi\\DTOs\\RequestDTOs\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T12:12:48.255Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
