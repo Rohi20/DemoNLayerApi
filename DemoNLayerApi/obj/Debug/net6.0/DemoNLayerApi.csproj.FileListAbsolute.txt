@@ -68,6 +68,7 @@ E:\ASP.Net\ASP.Net Core\Workspace\DotNetCore\DemoNLayerApi\DemoNLayerApi\obj\Deb
 E:\ASP.Net\ASP.Net Core\Workspace\DotNetCore\DemoNLayerApi\DemoNLayerApi\obj\Debug\net6.0\DemoNLayerApi.csproj.CoreCompileInputs.cache
 E:\ASP.Net\ASP.Net Core\Workspace\DotNetCore\DemoNLayerApi\DemoNLayerApi\obj\Debug\net6.0\DemoNLayerApi.MvcApplicationPartsAssemblyInfo.cs
 E:\ASP.Net\ASP.Net Core\Workspace\DotNetCore\DemoNLayerApi\DemoNLayerApi\obj\Debug\net6.0\DemoNLayerApi.MvcApplicationPartsAssemblyInfo.cache
+E:\ASP.Net\ASP.Net Core\Workspace\DotNetCore\DemoNLayerApi\DemoNLayerApi\obj\Debug\net6.0\DemoNLayerApi.sourcelink.json
 E:\ASP.Net\ASP.Net Core\Workspace\DotNetCore\DemoNLayerApi\DemoNLayerApi\obj\Debug\net6.0\scopedcss\bundle\DemoNLayerApi.styles.css
 E:\ASP.Net\ASP.Net Core\Workspace\DotNetCore\DemoNLayerApi\DemoNLayerApi\obj\Debug\net6.0\staticwebassets.build.json
 E:\ASP.Net\ASP.Net Core\Workspace\DotNetCore\DemoNLayerApi\DemoNLayerApi\obj\Debug\net6.0\staticwebassets.build.json.cache

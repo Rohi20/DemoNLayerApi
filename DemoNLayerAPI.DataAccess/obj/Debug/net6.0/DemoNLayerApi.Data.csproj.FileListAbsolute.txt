@@ -9,6 +9,7 @@ E:\ASP.Net\ASP.Net Core\Workspace\DotNetCore\DemoNLayerApi\DemoNLayerAPI.DataAcc
 E:\ASP.Net\ASP.Net Core\Workspace\DotNetCore\DemoNLayerApi\DemoNLayerAPI.DataAccess\obj\Debug\net6.0\DemoNLayerApi.Data.AssemblyInfoInputs.cache
 E:\ASP.Net\ASP.Net Core\Workspace\DotNetCore\DemoNLayerApi\DemoNLayerAPI.DataAccess\obj\Debug\net6.0\DemoNLayerApi.Data.AssemblyInfo.cs
 E:\ASP.Net\ASP.Net Core\Workspace\DotNetCore\DemoNLayerApi\DemoNLayerAPI.DataAccess\obj\Debug\net6.0\DemoNLayerApi.Data.csproj.CoreCompileInputs.cache
+E:\ASP.Net\ASP.Net Core\Workspace\DotNetCore\DemoNLayerApi\DemoNLayerAPI.DataAccess\obj\Debug\net6.0\DemoNLayerApi.Data.sourcelink.json
 E:\ASP.Net\ASP.Net Core\Workspace\DotNetCore\DemoNLayerApi\DemoNLayerAPI.DataAccess\obj\Debug\net6.0\DemoNLay.078091EA.Up2Date
 E:\ASP.Net\ASP.Net Core\Workspace\DotNetCore\DemoNLayerApi\DemoNLayerAPI.DataAccess\obj\Debug\net6.0\DemoNLayerApi.Data.dll
 E:\ASP.Net\ASP.Net Core\Workspace\DotNetCore\DemoNLayerApi\DemoNLayerAPI.DataAccess\obj\Debug\net6.0\refint\DemoNLayerApi.Data.dll

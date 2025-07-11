@@ -1,4 +1,5 @@
-﻿using DemoNLayerApi.Data.IRepository;
+﻿using DemoNLayerApi.Data.Exceptions;
+using DemoNLayerApi.Data.IRepository;
 using DemoNLayerApi.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -45,7 +46,7 @@ namespace DemoNLayerApi.Data.Repository
 
             if(user == null)
             {
-                throw new Exception("User not found");
+                throw new NotFoundException("User not found");
             }
 
             return user;

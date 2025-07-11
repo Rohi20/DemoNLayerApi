@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "DemoNLayerApi.Controllers.AuthController",
-    "Method": "login",
+    "Method": "Login",
     "RelativePath": "api/Auth/login",
     "HttpMethod": "POST",
     "IsController": true,

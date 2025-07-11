@@ -1,4 +1,5 @@
-﻿using DemoNLayerApi.Business.IServices;
+﻿using DemoNLayerApi.Data.Exceptions;
+using DemoNLayerApi.Business.IServices;
 using DemoNLayerApi.Data.IRepository;
 using DemoNLayerApi.Models;
 using System;
@@ -44,12 +45,12 @@ namespace DemoNLayerApi.Business.Services
 
             if (user == null)
             {
-                throw new Exception("User not found with this email");
+                throw new NotFoundException("User not found with this email");
             }
 
             if (user.Profile.Password != password)
             {
-                throw new Exception("Password is incorrect");
+                throw new CustomException("Password is incorrect");
 
             }
 

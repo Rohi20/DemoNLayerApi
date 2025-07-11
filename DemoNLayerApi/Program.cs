@@ -80,6 +80,21 @@ builder.Services.AddAuthentication(options =>
         ValidAudience = jwtSettings["Audience"],
         IssuerSigningKey = new SymmetricSecurityKey(key)
     };
+
+    // To handle exceptions
+    options.Events = new JwtBearerEvents
+    {
+        OnChallenge = exc => throw new UnauthorizedAccessException("Token is missing"),
+        OnForbidden = ctx =>
+        {
+            ctx.Response.StatusCode = StatusCodes.Status403Forbidden;
+            return ctx.Response.WriteAsJsonAsync(new
+            {
+                error = "You do not have enough privileges."
+            });
+        }
+    };
+
 });
 
 #endregion
@@ -88,7 +103,7 @@ builder.Services.AddAuthentication(options =>
 builder.Services.AddAuthorization(
     options =>
     {
-        options.AddPolicy("AdminOnlyPolicy", policy => policy.RequireRole("Admin"));
+        options.AddPolicy("AdminOnlyPolicy", policy => policy.RequireClaim(ClaimTypes.Role, "Admin"));
     }
     );
 #endregion

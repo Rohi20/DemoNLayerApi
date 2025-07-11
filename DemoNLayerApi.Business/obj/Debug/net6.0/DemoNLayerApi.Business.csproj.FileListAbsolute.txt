@@ -10,6 +10,7 @@ E:\ASP.Net\ASP.Net Core\Workspace\DotNetCore\DemoNLayerApi\DemoNLayerApi.Busines
 E:\ASP.Net\ASP.Net Core\Workspace\DotNetCore\DemoNLayerApi\DemoNLayerApi.Business\obj\Debug\net6.0\DemoNLayerApi.Business.AssemblyInfoInputs.cache
 E:\ASP.Net\ASP.Net Core\Workspace\DotNetCore\DemoNLayerApi\DemoNLayerApi.Business\obj\Debug\net6.0\DemoNLayerApi.Business.AssemblyInfo.cs
 E:\ASP.Net\ASP.Net Core\Workspace\DotNetCore\DemoNLayerApi\DemoNLayerApi.Business\obj\Debug\net6.0\DemoNLayerApi.Business.csproj.CoreCompileInputs.cache
+E:\ASP.Net\ASP.Net Core\Workspace\DotNetCore\DemoNLayerApi\DemoNLayerApi.Business\obj\Debug\net6.0\DemoNLayerApi.Business.sourcelink.json
 E:\ASP.Net\ASP.Net Core\Workspace\DotNetCore\DemoNLayerApi\DemoNLayerApi.Business\obj\Debug\net6.0\DemoNLay.B33F4703.Up2Date
 E:\ASP.Net\ASP.Net Core\Workspace\DotNetCore\DemoNLayerApi\DemoNLayerApi.Business\obj\Debug\net6.0\DemoNLayerApi.Business.dll
 E:\ASP.Net\ASP.Net Core\Workspace\DotNetCore\DemoNLayerApi\DemoNLayerApi.Business\obj\Debug\net6.0\refint\DemoNLayerApi.Business.dll

@@ -1,4 +1,5 @@
-﻿using DemoNLayerApi.Data.IRepository;
+﻿using DemoNLayerApi.Data.Exceptions;
+using DemoNLayerApi.Data.IRepository;
 using DemoNLayerApi.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -31,7 +32,7 @@ namespace DemoNLayerApi.Data.Repository
 
             if (author == null)
             {
-                throw new Exception("Author not found");
+                throw new NotFoundException($"Author with ID {id} not found");
             }
 
             _dbContext.Authors.Remove(author);
@@ -52,7 +53,7 @@ namespace DemoNLayerApi.Data.Repository
 
             if (author == null)
             {
-                throw new Exception("Author not found");
+                throw new NotFoundException($"Author with ID {id} not found");
             }
 
             return author;
@@ -65,7 +66,7 @@ namespace DemoNLayerApi.Data.Repository
 
             if (author == null)
             {
-                throw new Exception("Author not found");
+                throw new NotFoundException($"Author with ID {id} not found");
             }
 
             author.Name = name;

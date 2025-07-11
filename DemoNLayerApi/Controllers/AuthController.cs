@@ -26,7 +26,7 @@ namespace DemoNLayerApi.Controllers
         }
 
         [HttpPost("login")]
-        public async Task<ActionResult> login([FromBody] LoginDTO loginRequest)
+        public async Task<ActionResult> Login([FromBody] LoginDTO loginRequest)
         {
             User user = await _userService.AuthenticateUser(loginRequest.Email, loginRequest.Password);
 

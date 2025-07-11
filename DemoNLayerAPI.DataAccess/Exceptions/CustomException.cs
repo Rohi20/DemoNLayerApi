@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DemoNLayerApi.Business.Exceptions
+namespace DemoNLayerApi.Data.Exceptions
 {
     public class CustomException : Exception
     {
