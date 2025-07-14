@@ -1,6 +1,6 @@
 ﻿using DemoNLayerApi.Business.IServices;
 using DemoNLayerApi.Data.IRepository;
-using DemoNLayerApi.Models;
+using DemoNLayerApi.Models.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace DemoNLayerApi.Models
+namespace DemoNLayerApi.Models.Models
 {
     public class UserProfile
     {

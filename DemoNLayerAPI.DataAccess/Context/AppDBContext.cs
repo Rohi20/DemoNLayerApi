@@ -1,7 +1,7 @@
-﻿using DemoNLayerApi.Models;
+﻿using DemoNLayerApi.Models.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace DemoNLayerApi.Data
+namespace DemoNLayerApi.Data.Context
 {
     public class AppDBContext : DbContext
     {

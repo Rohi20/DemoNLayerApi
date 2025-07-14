@@ -1,7 +1,7 @@
 using DemoNLayerApi.Business.IServices;
 using DemoNLayerApi.Business.Services;
 using DemoNLayerApi.CustomMiddleware;
-using DemoNLayerApi.Data;
+using DemoNLayerApi.Data.Context;
 using DemoNLayerApi.Data.IRepository;
 using DemoNLayerApi.Data.Repository;
 using DemoNLayerApi.Models.Models;
@@ -112,6 +112,8 @@ builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
 builder.Services.AddScoped<IAuthorServices, AuthorService>();
 builder.Services.AddScoped<IUserRepository, UserRepositroy>();
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IBookRepository, BookRepository>();
+builder.Services.AddScoped<IBookService,BookService>();
 // For Authentication
 builder.Services.AddScoped<UserSession>();
 

@@ -1,6 +1,6 @@
 ﻿using DemoNLayerApi.Business.IServices;
 using DemoNLayerApi.DTOs.RequestDTOs;
-using DemoNLayerApi.Models;
+using DemoNLayerApi.Models.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -25,16 +25,16 @@ namespace DemoNLayerApi.Controllers
         public async Task<ActionResult<List<AuthorDTO>>> GetAuthors()
         {
             var authors = await _authorServices.GetAllAuthorsAsync();
-            var dto = authors.Select(a => new AuthorDTO
+            var dto = authors.Select(a => new Author
             {
                 Id = a.Id,
                 Name = a.Name,
-                Books = a.Books.Select(b => new BookDTO
+                Books = a.Books.Select(b => new Book
                 {
                     Id = b.Id,
                     Title = b.Title,
                     Description = b.Description,
-                    Categories = b.Categories.Select(c => new CategoryDTO
+                    Categories = b.Categories.Select(c => new Category
                     {
                         Id = c.Id,
                         Name = c.Name,

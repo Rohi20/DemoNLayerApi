@@ -63,7 +63,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "DemoNLayerApi.Models.Author",
+        "Type": "DemoNLayerApi.Models.Models.Author",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -115,6 +115,100 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "DemoNLayerApi.Controllers.BookController",
+    "Method": "AddBooks",
+    "RelativePath": "api/Book/add-book",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookRequest",
+        "Type": "DemoNLayerApi.DTOs.RequestDTOs.BookRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoNLayerApi.Controllers.BookController",
+    "Method": "DeleteBook",
+    "RelativePath": "api/Book/delete-book",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoNLayerApi.Controllers.BookController",
+    "Method": "GetAllBooks",
+    "RelativePath": "api/Book/get-books",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[DemoNLayerApi.Models.Models.Book, DemoNLayerApi.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DemoNLayerApi.Controllers.BookController",
+    "Method": "GetBooksByTitle",
+    "RelativePath": "api/Book/get-books-by-title",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[DemoNLayerApi.Models.Models.Book, DemoNLayerApi.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DemoNLayerApi.Controllers.BookController",
+    "Method": "UpdateBook",
+    "RelativePath": "api/Book/update-book",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookRequest",
+        "Type": "DemoNLayerApi.DTOs.RequestDTOs.BookUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "DemoNLayerApi.Controllers.UserController",
     "Method": "CreateUser",
     "RelativePath": "api/User/create-user",
@@ -140,7 +234,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[DemoNLayerApi.Models.User, DemoNLayerApi.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.List\u00601[[DemoNLayerApi.Models.Models.User, DemoNLayerApi.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

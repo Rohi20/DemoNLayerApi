@@ -7,7 +7,7 @@ namespace DemoNLayerApi.DTOs.RequestDTOs
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public List<BookDTO> Books { get; set; }
+        public List<BookUpdateDTO> Books { get; set; }
     }
 
     public class CreateAuthorDTO

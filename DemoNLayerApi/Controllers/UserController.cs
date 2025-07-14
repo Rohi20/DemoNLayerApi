@@ -1,7 +1,7 @@
 ﻿using DemoNLayerApi.Business.IServices;
 using DemoNLayerApi.DTOs.RequestDTOs;
 using DemoNLayerApi.DTOs.ResponseDTOs;
-using DemoNLayerApi.Models;
+using DemoNLayerApi.Models.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

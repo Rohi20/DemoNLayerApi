@@ -1,4 +1,4 @@
-﻿namespace DemoNLayerApi.Models
+﻿namespace DemoNLayerApi.Models.Models
 {
     public class Category
     {

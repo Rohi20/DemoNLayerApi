@@ -1,6 +1,7 @@
-﻿using DemoNLayerApi.Data.Exceptions;
+﻿using DemoNLayerApi.Data.Context;
+using DemoNLayerApi.Data.Exceptions;
 using DemoNLayerApi.Data.IRepository;
-using DemoNLayerApi.Models;
+using DemoNLayerApi.Models.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
