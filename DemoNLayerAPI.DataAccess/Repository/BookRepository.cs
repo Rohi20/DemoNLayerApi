@@ -1,4 +1,5 @@
 ﻿using DemoNLayerApi.Data.Context;
+using DemoNLayerApi.Data.DataDTO;
 using DemoNLayerApi.Data.Exceptions;
 using DemoNLayerApi.Data.IRepository;
 using DemoNLayerApi.Models.Models;
@@ -34,12 +35,7 @@ namespace DemoNLayerApi.Data.Repository
 
         public async Task DeleteBook(int id)
         {
-            var book = await GetBooksById(id);
-            if (book == null)
-            {
-                throw new NotFoundException("Book not found");
-            }
-
+            var book = await GetBookById(id) ?? throw new NotFoundException("Book not found");
             _dbContext.Books.Remove(book);
             await _dbContext.SaveChangesAsync();
         }
@@ -56,7 +52,7 @@ namespace DemoNLayerApi.Data.Repository
             return books;
         }
 
-        public async Task<Book> GetBooksById(int id)
+        public async Task<Book> GetBookById(int id)
         {
             var book = await _dbContext.Books.Where(b => b.Id == id).FirstOrDefaultAsync();
             return book;
@@ -71,6 +67,21 @@ namespace DemoNLayerApi.Data.Repository
         public async Task<bool> DoesAuthorExists(int id)
         {
             return await _dbContext.Books.AnyAsync(b =>  b.AuthorId == id);
+        }
+
+        public async Task<List<BookPerAuthorDTO>> GetBooksPerAuthor()
+        {
+           var authorStats = await _dbContext.Books.
+                GroupBy(b => b.Author.Name).
+                Select(c => new BookPerAuthorDTO
+                { AuthorName = c.Key,
+                  BookCount = c.Count(),
+                  TotalPrice = c.Sum(b => b.Price),
+                  AveragePrice = c.Average(b => b.Price)
+                }).ToListAsync();
+
+            return authorStats;
+
         }
     }
 }

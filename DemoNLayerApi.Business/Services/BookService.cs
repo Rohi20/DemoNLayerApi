@@ -1,4 +1,5 @@
 ﻿using DemoNLayerApi.Business.IServices;
+using DemoNLayerApi.Data.DataDTO;
 using DemoNLayerApi.Data.IRepository;
 using DemoNLayerApi.Models.Models;
 using System;
@@ -42,6 +43,16 @@ namespace DemoNLayerApi.Business.Services
         public async Task UpdateBook(Book book)
         {
             await _repository.UpdateBook(book);
+        }
+        
+        public async Task<Book> GetBookById(int id)
+        {
+            return await _repository.GetBookById(id);
+        }
+
+        public Task<List<BookPerAuthorDTO>> GetBooksPerAuthor()
+        {
+            return _repository.GetBooksPerAuthor();
         }
     }
 }

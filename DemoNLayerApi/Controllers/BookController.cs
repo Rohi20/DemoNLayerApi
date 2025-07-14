@@ -1,4 +1,5 @@
 ﻿using DemoNLayerApi.Business.IServices;
+using DemoNLayerApi.Data.DataDTO;
 using DemoNLayerApi.Data.Exceptions;
 using DemoNLayerApi.DTOs.RequestDTOs;
 using DemoNLayerApi.Models.Models;
@@ -50,13 +51,15 @@ namespace DemoNLayerApi.Controllers
         [HttpPut("update-book")]
         public async Task<ActionResult> UpdateBook([FromBody] BookUpdateDTO bookRequest)
         {
+            var existingBook = await _bookService.GetBookById(bookRequest.Id);
             var book = new Book
             {
                 Id= bookRequest.Id,
-                Title = bookRequest.Title,
+                Title = bookRequest.Title ?? existingBook.Title,
                 Description = !String.IsNullOrWhiteSpace(bookRequest.Description)
-                ? bookRequest.Description : string.Empty,
-                AuthorId = bookRequest.AuthorId
+                ? bookRequest.Description : existingBook.Description ?? string.Empty,
+                AuthorId =  bookRequest.AuthorId ?? existingBook.AuthorId,
+                Price = bookRequest.Price ?? existingBook.Price
             };
 
             await _bookService.UpdateBook(book);
@@ -68,6 +71,13 @@ namespace DemoNLayerApi.Controllers
         {
             await _bookService.DeleteBook(id);
             return Ok("Book deleted successfully");
+        }
+
+        [HttpGet("get-books-per-author")]
+        public async Task<ActionResult<List<BookPerAuthorDTO>>> GetBooksPerAuthor()
+        {
+            var books = await _bookService.GetBooksPerAuthor();
+            return Ok(books);
         }
 
     }

@@ -41,13 +41,7 @@ namespace DemoNLayerApi.Business.Services
 
         public async Task<User> AuthenticateUser(string email, string password)
         {
-            User user = await _repository.GetUserByEmail(email);
-
-            if (user == null)
-            {
-                throw new NotFoundException("User not found with this email");
-            }
-
+            User user = await _repository.GetUserByEmail(email) ?? throw new NotFoundException("User not found with this email");
             if (user.Profile.Password != password)
             {
                 throw new CustomException("Password is incorrect");

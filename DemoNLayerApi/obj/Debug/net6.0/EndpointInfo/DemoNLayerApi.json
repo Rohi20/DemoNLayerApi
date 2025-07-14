@@ -354,6 +354,44 @@
         }
       }
     },
+    "/api/Book/get-books-per-author": {
+      "get": {
+        "tags": [
+          "Book"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/BookPerAuthorDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/BookPerAuthorDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/BookPerAuthorDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/User/create-user": {
       "post": {
         "tags": [
@@ -483,6 +521,10 @@
             "type": "string",
             "nullable": true
           },
+          "price": {
+            "type": "number",
+            "format": "double"
+          },
           "authorId": {
             "type": "integer",
             "format": "int32"
@@ -500,9 +542,30 @@
         },
         "additionalProperties": false
       },
+      "BookPerAuthorDTO": {
+        "type": "object",
+        "properties": {
+          "authorName": {
+            "type": "string",
+            "nullable": true
+          },
+          "bookCount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "totalPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "averagePrice": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
       "BookRequestDTO": {
         "required": [
-          "authorId",
           "title"
         ],
         "type": "object",
@@ -514,6 +577,10 @@
           "description": {
             "type": "string",
             "nullable": true
+          },
+          "price": {
+            "type": "number",
+            "format": "double"
           },
           "authorId": {
             "type": "integer",
@@ -537,9 +604,15 @@
             "type": "string",
             "nullable": true
           },
+          "price": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
           "authorId": {
             "type": "integer",
-            "format": "int32"
+            "format": "int32",
+            "nullable": true
           }
         },
         "additionalProperties": false

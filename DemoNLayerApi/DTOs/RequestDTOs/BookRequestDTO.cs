@@ -7,7 +7,7 @@ namespace DemoNLayerApi.DTOs.RequestDTOs
         [Required]
         public string Title { get; set; }
         public string Description { get; set; }
-        [Required]
+        public decimal Price { get; set; }
         public int AuthorId { get; set; }
     }
 }

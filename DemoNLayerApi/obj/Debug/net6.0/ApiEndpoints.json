@@ -194,6 +194,26 @@
   },
   {
     "ContainingType": "DemoNLayerApi.Controllers.BookController",
+    "Method": "GetBooksPerAuthor",
+    "RelativePath": "api/Book/get-books-per-author",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[DemoNLayerApi.Data.DataDTO.BookPerAuthorDTO, DemoNLayerApi.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DemoNLayerApi.Controllers.BookController",
     "Method": "UpdateBook",
     "RelativePath": "api/Book/update-book",
     "HttpMethod": "PUT",

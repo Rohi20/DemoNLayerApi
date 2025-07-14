@@ -115,6 +115,10 @@ namespace DemoNLayerApi.Data.Context
             modelBuilder.Entity<UserProfile>()
                 .Property(e => e.Role)
                 .HasDefaultValue("Internal");
+
+            modelBuilder.Entity<Book>()
+                .Property(e => e.Price)
+                .HasDefaultValue(50.00);
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using DemoNLayerApi.Models;
+﻿using DemoNLayerApi.Data.DataDTO;
+using DemoNLayerApi.Models;
 using DemoNLayerApi.Models.Models;
 using System;
 using System.Collections.Generic;
@@ -15,5 +16,7 @@ namespace DemoNLayerApi.Data.IRepository
         Task<List<Book>> GetBooksByTitle(string title);
         Task UpdateBook(Book book);
         Task DeleteBook(int id);
+        Task<Book> GetBookById(int id);
+        Task<List<BookPerAuthorDTO>> GetBooksPerAuthor();
     }
 }

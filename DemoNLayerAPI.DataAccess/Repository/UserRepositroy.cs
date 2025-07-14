@@ -43,13 +43,7 @@ namespace DemoNLayerApi.Data.Repository
             var user = await _dBContext.Users
                 .Where(u => u.Profile.Email == email)
                 .Include(c => c.Profile)
-                .FirstOrDefaultAsync();
-
-            if(user == null)
-            {
-                throw new NotFoundException("User not found");
-            }
-
+                .FirstOrDefaultAsync() ?? throw new NotFoundException("User not found");
             return user;
         }
     }

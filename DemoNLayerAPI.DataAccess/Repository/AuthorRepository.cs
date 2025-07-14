@@ -28,14 +28,7 @@ namespace DemoNLayerApi.Data.Repository
 
         public async Task DeleteAuthorAsync(int id)
         {
-            var author = _dbContext.Authors.Find(id);
-
-
-            if (author == null)
-            {
-                throw new NotFoundException($"Author with ID {id} not found");
-            }
-
+            var author = _dbContext.Authors.Find(id) ?? throw new NotFoundException($"Author with ID {id} not found");
             _dbContext.Authors.Remove(author);
             await _dbContext.SaveChangesAsync();
         }
@@ -50,26 +43,13 @@ namespace DemoNLayerApi.Data.Repository
 
         public async Task<Author> GetAuthorByIdAsync(int id)
         {
-            var author = await _dbContext.Authors.FindAsync(id);
-
-            if (author == null)
-            {
-                throw new NotFoundException($"Author with ID {id} not found");
-            }
-
+            var author = await _dbContext.Authors.FindAsync(id) ?? throw new NotFoundException($"Author with ID {id} not found");
             return author;
         }
 
         public async Task UpdateAuthorAsync(int id, string name)
         {
-            var author = _dbContext.Authors.Find(id);
-
-
-            if (author == null)
-            {
-                throw new NotFoundException($"Author with ID {id} not found");
-            }
-
+            var author = _dbContext.Authors.Find(id) ?? throw new NotFoundException($"Author with ID {id} not found");
             author.Name = name;
 
             _dbContext.Authors.Update(author);
