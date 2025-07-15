@@ -392,6 +392,92 @@
         }
       }
     },
+    "/api/Book/get-books-by-price": {
+      "post": {
+        "tags": [
+          "Book"
+        ],
+        "parameters": [
+          {
+            "name": "price",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/BooksInRangeDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/BooksInRangeDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/BooksInRangeDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Book/get-books-by-price-details": {
+      "get": {
+        "tags": [
+          "Book"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/BooksByPriceDetails"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/BooksByPriceDetails"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/BooksByPriceDetails"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/User/create-user": {
       "post": {
         "tags": [
@@ -542,6 +628,20 @@
         },
         "additionalProperties": false
       },
+      "BookInfo": {
+        "type": "object",
+        "properties": {
+          "bookTitle": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "BookPerAuthorDTO": {
         "type": "object",
         "properties": {
@@ -613,6 +713,53 @@
             "type": "integer",
             "format": "int32",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "BooksByPriceDetails": {
+        "type": "object",
+        "properties": {
+          "bookDetails": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BookInfo"
+            },
+            "nullable": true
+          },
+          "price": {
+            "type": "number",
+            "format": "double"
+          },
+          "priceTotal": {
+            "type": "number",
+            "format": "double"
+          },
+          "minPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "maxPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "booksCount": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "BooksInRangeDTO": {
+        "type": "object",
+        "properties": {
+          "priceCategory": {
+            "type": "string",
+            "nullable": true
+          },
+          "bookCount": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false

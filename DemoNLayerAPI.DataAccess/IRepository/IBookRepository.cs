@@ -18,5 +18,11 @@ namespace DemoNLayerApi.Data.IRepository
         Task DeleteBook(int id);
         Task<Book> GetBookById(int id);
         Task<List<BookPerAuthorDTO>> GetBooksPerAuthor();
+        Task<List<BooksInRangeDTO>> GetBooksInRange(decimal price);
+        /**
+         * This function get the count of books, Maximum/minimum
+         * price among the books
+         * */
+        Task<List<BooksByPriceDetails>> GetBooksByPriceDetails();
     }
 }

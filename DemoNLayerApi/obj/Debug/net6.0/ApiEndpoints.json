@@ -168,6 +168,52 @@
   },
   {
     "ContainingType": "DemoNLayerApi.Controllers.BookController",
+    "Method": "GetBooksInPriceRange",
+    "RelativePath": "api/Book/get-books-by-price",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "price",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[DemoNLayerApi.Data.DataDTO.BooksInRangeDTO, DemoNLayerApi.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DemoNLayerApi.Controllers.BookController",
+    "Method": "GetBooksByPriceDetails",
+    "RelativePath": "api/Book/get-books-by-price-details",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[DemoNLayerApi.Data.DataDTO.BooksByPriceDetails, DemoNLayerApi.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DemoNLayerApi.Controllers.BookController",
     "Method": "GetBooksByTitle",
     "RelativePath": "api/Book/get-books-by-title",
     "HttpMethod": "GET",

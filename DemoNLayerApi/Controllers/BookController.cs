@@ -52,17 +52,28 @@ namespace DemoNLayerApi.Controllers
         public async Task<ActionResult> UpdateBook([FromBody] BookUpdateDTO bookRequest)
         {
             var existingBook = await _bookService.GetBookById(bookRequest.Id);
-            var book = new Book
-            {
-                Id= bookRequest.Id,
-                Title = bookRequest.Title ?? existingBook.Title,
-                Description = !String.IsNullOrWhiteSpace(bookRequest.Description)
-                ? bookRequest.Description : existingBook.Description ?? string.Empty,
-                AuthorId =  bookRequest.AuthorId ?? existingBook.AuthorId,
-                Price = bookRequest.Price ?? existingBook.Price
-            };
 
-            await _bookService.UpdateBook(book);
+            if (bookRequest.AuthorId.HasValue)
+            {                
+                existingBook.AuthorId = bookRequest.AuthorId.Value;
+            }
+
+            if (!String.IsNullOrEmpty(bookRequest.Title)){
+                existingBook.Title = bookRequest.Title;
+            }
+
+            if (!String.IsNullOrEmpty(bookRequest.Description))
+            {
+                existingBook.Description = bookRequest.Description;
+            }
+
+            if (bookRequest.Price.HasValue)
+            {
+                existingBook.Price = bookRequest.Price.Value;
+            }
+          
+
+            await _bookService.UpdateBook(existingBook);
             return Ok("Book updated successfully");
         }
 
@@ -80,5 +91,18 @@ namespace DemoNLayerApi.Controllers
             return Ok(books);
         }
 
+        [HttpPost("get-books-by-price")]
+        public async Task<ActionResult<List<BooksInRangeDTO>>> GetBooksInPriceRange(decimal price)
+        {
+            var books = await _bookService.GetBooksInRanges(price);
+            return Ok(books);
+        }
+
+        [HttpGet("get-books-by-price-details")]
+        public async Task<ActionResult<List<BooksByPriceDetails>>> GetBooksByPriceDetails()
+        {
+            var bookDetails = await _bookService.GetBooksByPriceDetails();
+            return Ok(bookDetails);
+        }
     }
 }

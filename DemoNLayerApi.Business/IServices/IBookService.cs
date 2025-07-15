@@ -17,5 +17,7 @@ namespace DemoNLayerApi.Business.IServices
         Task DeleteBook(int id);
         Task<Book> GetBookById(int id);
         Task<List<BookPerAuthorDTO>> GetBooksPerAuthor();
+        Task<List<BooksInRangeDTO>> GetBooksInRanges(decimal p);
+        Task<List<BooksByPriceDetails>> GetBooksByPriceDetails();
     }
 }
