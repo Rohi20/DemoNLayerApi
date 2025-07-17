@@ -83,26 +83,6 @@ namespace DemoNLayerApi.Controllers
             await _bookService.DeleteBook(id);
             return Ok("Book deleted successfully");
         }
-
-        [HttpGet("get-books-per-author")]
-        public async Task<ActionResult<List<BookPerAuthorDTO>>> GetBooksPerAuthor()
-        {
-            var books = await _bookService.GetBooksPerAuthor();
-            return Ok(books);
-        }
-
-        [HttpPost("get-books-by-price")]
-        public async Task<ActionResult<List<BooksInRangeDTO>>> GetBooksInPriceRange(decimal price)
-        {
-            var books = await _bookService.GetBooksInRanges(price);
-            return Ok(books);
-        }
-
-        [HttpGet("get-books-by-price-details")]
-        public async Task<ActionResult<List<BooksByPriceDetails>>> GetBooksByPriceDetails()
-        {
-            var bookDetails = await _bookService.GetBooksByPriceDetails();
-            return Ok(bookDetails);
-        }
+        
     }
 }

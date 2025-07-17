@@ -5,6 +5,168 @@
     "version": "v1"
   },
   "paths": {
+    "/api/Aggregation/get-books-per-author": {
+      "get": {
+        "tags": [
+          "Aggregation"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/BookPerAuthorDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/BookPerAuthorDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/BookPerAuthorDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Aggregation/books-price-classification": {
+      "post": {
+        "tags": [
+          "Aggregation"
+        ],
+        "parameters": [
+          {
+            "name": "price",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/BooksInRangeDTO"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/BooksInRangeDTO"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/BooksInRangeDTO"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Aggregation/get-books-by-price-details": {
+      "get": {
+        "tags": [
+          "Aggregation"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/BooksByPriceDetails"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/BooksByPriceDetails"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/BooksByPriceDetails"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Aggregation/get-top-five-authors-by-books": {
+      "get": {
+        "tags": [
+          "Aggregation"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Top5Author"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Top5Author"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Top5Author"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/Auth/login": {
       "post": {
         "tags": [
@@ -354,10 +516,10 @@
         }
       }
     },
-    "/api/Book/get-books-per-author": {
+    "/api/Category/get-categories": {
       "get": {
         "tags": [
-          "Book"
+          "Category"
         ],
         "responses": {
           "200": {
@@ -367,7 +529,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/BookPerAuthorDTO"
+                    "$ref": "#/components/schemas/Category"
                   }
                 }
               },
@@ -375,7 +537,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/BookPerAuthorDTO"
+                    "$ref": "#/components/schemas/Category"
                   }
                 }
               },
@@ -383,7 +545,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/BookPerAuthorDTO"
+                    "$ref": "#/components/schemas/Category"
                   }
                 }
               }
@@ -392,85 +554,119 @@
         }
       }
     },
-    "/api/Book/get-books-by-price": {
+    "/api/Category/add-category": {
       "post": {
         "tags": [
-          "Book"
+          "Category"
         ],
         "parameters": [
           {
-            "name": "price",
+            "name": "name",
             "in": "query",
             "schema": {
-              "type": "number",
-              "format": "double"
+              "type": "string"
             }
           }
         ],
         "responses": {
           "200": {
-            "description": "Success",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/BooksInRangeDTO"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/BooksInRangeDTO"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/BooksInRangeDTO"
-                  }
-                }
-              }
-            }
+            "description": "Success"
           }
         }
       }
     },
-    "/api/Book/get-books-by-price-details": {
-      "get": {
+    "/api/Category/update-category": {
+      "put": {
         "tags": [
-          "Book"
+          "Category"
         ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "new_name",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Category/delete-category": {
+      "delete": {
+        "tags": [
+          "Category"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Category/add-books-to-category": {
+      "post": {
+        "tags": [
+          "Category"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BooksToCategory"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BooksToCategory"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/BooksToCategory"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "Success",
             "content": {
               "text/plain": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/BooksByPriceDetails"
-                  }
+                  "$ref": "#/components/schemas/BooksToCategoryResponse"
                 }
               },
               "application/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/BooksByPriceDetails"
-                  }
+                  "$ref": "#/components/schemas/BooksToCategoryResponse"
                 }
               },
               "text/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/BooksByPriceDetails"
-                  }
+                  "$ref": "#/components/schemas/BooksToCategoryResponse"
                 }
               }
             }
@@ -720,12 +916,9 @@
       "BooksByPriceDetails": {
         "type": "object",
         "properties": {
-          "bookDetails": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/BookInfo"
-            },
-            "nullable": true
+          "bookId": {
+            "type": "integer",
+            "format": "int32"
           },
           "price": {
             "type": "number",
@@ -746,6 +939,13 @@
           "booksCount": {
             "type": "integer",
             "format": "int32"
+          },
+          "bookDetails": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BookInfo"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -760,6 +960,59 @@
           "bookCount": {
             "type": "integer",
             "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "BooksLinked": {
+        "type": "object",
+        "properties": {
+          "bookId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "bookName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "BooksToCategory": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "bookIds": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "BooksToCategoryResponse": {
+        "type": "object",
+        "properties": {
+          "categoryName": {
+            "type": "string",
+            "nullable": true
+          },
+          "booksLinked": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BooksLinked"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -795,6 +1048,20 @@
           "password": {
             "type": "string",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Top5Author": {
+        "type": "object",
+        "properties": {
+          "authorName": {
+            "type": "string",
+            "nullable": true
+          },
+          "bookCount": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false

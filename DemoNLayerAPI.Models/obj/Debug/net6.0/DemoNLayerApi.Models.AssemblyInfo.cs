@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DemoNLayerApi.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc34bea0956ae18d6ca384e27e9829384f9ce8f7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+724960bd7f876c9c75b229bd8450f5cc1b2a1cc6")]
 [assembly: System.Reflection.AssemblyProductAttribute("DemoNLayerApi.Models")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DemoNLayerApi.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

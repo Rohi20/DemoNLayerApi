@@ -110,10 +110,14 @@ builder.Services.AddAuthorization(
 
 builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
 builder.Services.AddScoped<IAuthorServices, AuthorService>();
+builder.Services.AddScoped<IAggregationService, AggregationService>();
+builder.Services.AddScoped<IAggregationRepository, AggregationRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepositroy>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IBookRepository, BookRepository>();
 builder.Services.AddScoped<IBookService,BookService>();
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
 // For Authentication
 builder.Services.AddScoped<UserSession>();
 

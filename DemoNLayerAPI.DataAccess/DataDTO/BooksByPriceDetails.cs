@@ -14,12 +14,13 @@ namespace DemoNLayerApi.Data.DataDTO
     }
     public class BooksByPriceDetails
     {
-        public List<BookInfo> BookDetails { get; set; }
+        public int BookId { get; set; }
         public decimal Price { get; set; }
         public decimal PriceTotal { get; set; }
         public decimal MinPrice { get; set; }
         public decimal MaxPrice { get; set; }
         public int BooksCount { get; set; }
+        public List<BookInfo> BookDetails { get; set; }
 
     }
 }

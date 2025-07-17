@@ -50,19 +50,5 @@ namespace DemoNLayerApi.Business.Services
             return await _repository.GetBookById(id);
         }
 
-        public Task<List<BookPerAuthorDTO>> GetBooksPerAuthor()
-        {
-            return _repository.GetBooksPerAuthor();
-        }
-
-        public Task<List<BooksInRangeDTO>> GetBooksInRanges(decimal price)
-        {
-            return _repository.GetBooksInRange(price);
-        }
-
-        public Task<List<BooksByPriceDetails>> GetBooksByPriceDetails()
-        {
-            return _repository.GetBooksByPriceDetails();
-        }
     }
 }

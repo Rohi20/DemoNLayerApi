@@ -1,6 +1,6 @@
-﻿namespace DemoNLayerApi.DTOs.RequestDTOs
+﻿namespace DemoNLayerApi.DTOs.ResponseDTOs
 {
-    public class CategoryDTO
+    public class CategoryResponse
     {
         public int Id { get; set; }
         public string Name { get; set; }
